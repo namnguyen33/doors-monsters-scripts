@@ -1,0 +1,273 @@
+_G.Uses = 999999
+_G.Range = 30
+_G.OnAnything = true
+_G.Fail = false
+_G.Variant = "Electric"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zeca130/Doors-mode/refs/heads/main/README.md"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/namnguyen33/41450088/refs/heads/main/Text%20new"))()
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Zeca130/doors-my-version-nightmareMode./refs/heads/main/Fog'))()
+    end)
+end)
+
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
+local intro = shut:Clone()
+intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
+intro.Name = "IntroTextPleaseThankYou"
+intro.Visible = true
+intro.Text = "Difficulty Hotel"
+intro.TextTransparency = 0
+local underline = UDim2.new(1.1, 0, 0.015, 6)
+game.TweenService:Create(intro.Underline, TweenInfo.new(3), {Size = underline}):Play()
+wait(7)
+game.TweenService:Create(intro.Underline, TweenInfo.new(1.3), {Size = UDim2.new(0.95, 0, 0.015, 6)}):Play()
+wait(1)
+game.TweenService:Create(intro.Underline, TweenInfo.new(2), {ImageTransparency = 1}):Play()
+game.TweenService:Create(intro, TweenInfo.new(2), {TextTransparency = 1}):Play()
+game.TweenService:Create(intro.Underline, TweenInfo.new(7), {Size = UDim2.new(0, 0, 0.015, 6)}):Play()
+wait(2.3)
+intro.Visible = false
+wait(9)
+intro:Destroy()
+
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://273398061"
+sound.Volume = 1
+sound.Looped = true
+sound:Play()
+sound.Parent = workspace
+
+local Lighting = game:GetService("Lighting")
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 50
+Lighting.FogStart = 35
+Lighting.FogColor = Color3.new(0, 0, 0)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Endless-Doors-In-Doors/main/custom%20doors%20sounds.txt"))()
+game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 255, 0)
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = "rbxassetid://7492033495"
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = "rbxassetid://8080941676"
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.HideMonster.Scare.SoundId = "rbxassetid://9126213741"
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.SpiderJumpscare.Scare.SoundId = "rbxassetid://8080941676"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/guidingcandle.lua"))()
+
+coroutine.wrap(function()
+    while true do
+        wait(325)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://pastefy.app/ofutwkjb/raw "))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(210)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/namnguyen33/41450088/refs/heads/main/Null"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(100)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanggphuc/Entity-obfuscate/refs/heads/main/Dread.lua"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(150)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Kotyara19k-Doorsspawner/Random-files/main/ReboundHardcoreSpawn'))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(309)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(256)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Immersive%20mode/Detph"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(20)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Overseer.lua"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(200)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Immersive%20mode/Darkness"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(20)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/refs/heads/main/Entities/Shocker"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(294)
+        loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(90)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whatt'))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(300)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Matcher.lua"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(174)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(200)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/namnguyen33/41450088/refs/heads/main/Hungerd"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(283)
+        loadstring(game:HttpGet('https://pastefy.app/BItVDA0u/raw'))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(334)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Kotyara19k-Doorsspawner/Random-files/main/TraumaSoucreSpawner'))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(290)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Rebound.lua"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(549)
+        loadstring(game:HttpGet("https://pastebin.com/raw/W500czKk"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(40)
+        loadstring(game:HttpGet("https://pastebin.com/raw/9EHf6vwQ"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(300)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/a-60aa/refs/heads/main/---%3D%3D%3D%3D%3D%3D%20a-60%20agresiv%20spawner%20%3D%3D%3D%3D%3D%3D---.txt"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(988)
+        loadstring(game:HttpGet("https://pastebin.com/raw/gRE7ufc5"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(135)
+        loadstring(game:HttpGet("https://github.com/namnguyen33/41450088/blob/main/SPECTRA-X"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(588)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/namnguyen33/41450088/refs/heads/main/TWISTED%20GOLD"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(45)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/namnguyen33/41450088/refs/heads/main/Wh1t3%20t%C3%ADm"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(355)
+        loadstring(game:HttpGet("https://github.com/namnguyen33/41450088/blob/main/Nightmare%20dread"))()
+    end
+end)()
+
+task.delay(5, function()
+    local success, Crucifix = pcall(function()
+        return require(game.ReplicatedStorage.ClientModules.EntityModules.Crucifix)
+    end)
+
+    if success and Crucifix and Crucifix.BlockedEntities then
+        local entitiesToSupport = {
+            "WH1T3", "SPECTRA-X", "NIGHTMARE DREAD", "Shocker", "Detph",
+            "Overseer", "Trauma", "Depth 2", "Twisted Gold", "Smile",
+            "Matcher", "Blink", "Threat", "Hunger", "Rebound",
+            "Rebound 2", "NULL", "A200", "A60", "Darkness",
+            "PURPLE WH1T3", "SMILE", "THREAT", "BLINK"
+        }
+
+        for _, name in ipairs(entitiesToSupport) do
+            Crucifix.BlockedEntities[name] = true
+        end
+    else
+        warn("Failed to load Crucifix module or Crucifix.BlockedEntities is missing")
+    end
+end)
